@@ -1,0 +1,29 @@
+[
+    {
+      "role": "Software Engineer",
+      "organisation": "Persistent (Pvt)Ltd. ",
+      "startDate": "June 2023",
+      "endDate": "Aug2023",
+      "experiences": ["Learnt Oops with Java and Data Structures", "Dbms with MySql, Java Collections"],
+      "imageSrc": "history/persistent.png"
+    },
+    {
+      "role": "Python Developer",
+      "organisation": "Happieloop Technologies",
+      "startDate": "Sep 2023",
+      "endDate": "Oct 2023",
+      "experiences": ["Exploratoy Data Analysis", "Designed the control panel"],
+      "imageSrc": "history/happie.png"
+    },
+    {
+      "role": "Oasis Infobyte",
+      "organisation": "Web Developer",
+      "startDate": "June 2023",
+      "endDate": "Aug 2023",
+      "experiences": [
+        "Developed Responsive Personal Portfolio",
+        "Helped create UI components"
+      ],
+      "imageSrc": "history/oasis.png"
+    }
+  ]

@@ -1,0 +1,27 @@
+[
+    {
+      "title": "EfficienSee",
+      "imageSrc": "projects/project.png",
+      "description": "This is an Employee-HR dashboard platform which Streamlines work processes and empowers employees & HR",
+      "skills": ["Html", "Css", "Js", "Php", "MySql"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Sales Analysis",
+      "imageSrc": "projects/project.png",
+      "description": "The Project using Python and Pandas library extracting insights on best probable playing 11 of world cup 2023.",
+      "skills": ["Python", "Pandas", "Power BI"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "KishaanSarthak",
+      "imageSrc": "projects/project.png",
+      "description": "The Digital platform for Dairy and Poultry farmers which enables direct selling product to businesses, eliminating 3rd-party involvement.",
+      "skills": ["Html", "Css", "Js", "Python", "MySql"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+    
+  ]
