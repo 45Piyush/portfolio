@@ -1,15 +1,14 @@
 @import "../../vars.css";
 
 .container {
+  background: rgba(0, 0, 0, 0.25);
   margin-top: 120px;
-  background-color: var(--color-secondary);
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+  flex-direction: column;
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
+  color: lightseagreen;
 }
 
 .text h2 {
@@ -27,9 +26,8 @@
 .links {
   padding: 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   list-style: none;
   gap: 20px;
 }
@@ -38,15 +36,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .link a {
-  color: var(--color-text);
+  /* color: var(--color-text); */
+  color: lightblue;
   text-decoration: none;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 700;
   letter-spacing: 1.5px;
+}
+
+.link a:hover {
+  color: cyan;
+  font-weight: 900;
+}
+
+.link img {
+  width: 30px;
 }
 
 @media screen and (max-width: 830px) {
@@ -58,7 +67,6 @@
   .text {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
   }
 
   .links {

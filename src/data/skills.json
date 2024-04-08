@@ -1,14 +1,18 @@
 [
     {
-      "title": "HTML",
+      "title": "HTML5",
       "imageSrc": "skills/html.png"
     },
     {
-      "title": "CSS",
+      "title": "CSS3",
       "imageSrc": "skills/css.png"
     },
     {
-      "title": "React",
+      "title": "JS",
+      "imageSrc": "skills/javascript.jpg"
+    },
+    {
+      "title": "ReactJS",
       "imageSrc": "skills/react.png"
     },
     {
@@ -20,15 +24,15 @@
       "imageSrc": "skills/python.png"
     },
     {
+      "title": "Django",
+      "imageSrc": "skills/django.png"
+    },
+    {
       "title": "Java",
       "imageSrc": "skills/java.png"
     },
     {
-      "title" :"Jupyter Nb" ,
-      "imageSrc":"skills/jupyter.png"
-    },
-    {
-      "title" :"Pandas" ,
-      "imageSrc":"skills/pandas.png"
+      "title" :"GitHub" ,
+      "imageSrc":"skills/github.png"
     }
   ]

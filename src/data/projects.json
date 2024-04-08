@@ -1,25 +1,25 @@
 [
     {
+      "title": "Image Forgery Detector",
+      "imageSrc": "projects/project.png",
+      "description": "A Deep Learning Web Applications for detecting whether an Image is Real or Tampered, it also gives us the Accuracy with which the Model prediction might be True/False.",
+      "skills": ["Python","Py Libraries", "Streamlit", "Kaggle", "Azure Cloud"],
+      "demo": "https://tsp-image-forgery.azurewebsites.net",
+      "source": "https://github.com/45Piyush/img-forgery-detector"
+    },
+    {
       "title": "EfficienSee",
       "imageSrc": "projects/project.png",
-      "description": "This is an Employee-HR dashboard platform which Streamlines work processes and empowers employees & HR",
-      "skills": ["Html", "Css", "Js", "Php", "MySql"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "An Employee-HR Dashboard platform which streamlines work processes and empowers Employees & HR to efficiently manages different Tasks, Leaves and Personal Data of Employees.",
+      "skills": ["HTML5", "CSS3", "JS","MySqL" ,"Bootstrap","PHP", "Xaamps"],
+      "demo": "http://efficiensee.infinityfreeapp.com/efficiensee/",
+      "source": "https://github.com/45Piyush/efficiensee"
     },
     {
-      "title": "Sales Analysis",
+      "title": "KishanSarthak",
       "imageSrc": "projects/project.png",
-      "description": "The Project using Python and Pandas library extracting insights on best probable playing 11 of world cup 2023.",
-      "skills": ["Python", "Pandas", "Power BI"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "KishaanSarthak",
-      "imageSrc": "projects/project.png",
-      "description": "The Digital platform for Dairy and Poultry farmers which enables direct selling product to businesses, eliminating 3rd-party involvement.",
-      "skills": ["Html", "Css", "Js", "Python", "MySql"],
+      "description": "The Digital platform for Dairy and Poultry farmers which enables farmers to direct sell product to businesses, eliminating 3rd-party involvement. Thus bridging the gap between Farmers & Market and Empowering them.",
+      "skills": ["HTML5", "CSS3", "JS", "Django","Bootstrap", "SQLite3"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     }
