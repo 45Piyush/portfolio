@@ -20,7 +20,7 @@
   letter-spacing: 2px; /* Add some letter spacing for better readability */
   padding: 10px 20px; /* Add padding to create space around the text */
   border-radius: 5px; /* Add rounded corners */
-  animation: flip 4s infinite;
+  /* animation: flip 4s infinite; */
 }
 
 @keyframes flip {
