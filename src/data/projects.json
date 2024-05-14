@@ -8,6 +8,14 @@
       "source": "https://github.com/45Piyush/img-forgery-detector"
     },
     {
+      "title": "Youtube Blogger AI",
+      "imageSrc": "projects/project.png",
+      "description": "This is a Youtube Video Summarization Full Stack Web Application platform which summarizes the content in the form of BLOGS and records it for each individual Users.",
+      "skills": ["HTML5", "CSS3", "JS", "Django","TailwindCSS", "GenAI", "Assembly AI"],
+      "demo": "https://youtubeblogai.onrender.com/",
+      "source": "https://github.com/45Piyush/youtubeBlogAI"
+    },
+    {
       "title": "EfficienSee",
       "imageSrc": "projects/project.png",
       "description": "An Employee-HR Dashboard platform which streamlines work processes and empowers Employees & HR to efficiently manages different Tasks, Leaves and Personal Data of Employees.",
