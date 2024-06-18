@@ -4,7 +4,7 @@
       "imageSrc": "projects/project.png",
       "description": "A Deep Learning Web Applications for detecting whether an Image is Real or Tampered, it also gives us the Accuracy with which the Model prediction might be True/False.",
       "skills": ["Python","Py Libraries", "Streamlit", "Kaggle", "Azure Cloud"],
-      "demo": "https://tsp-image-forgery.azurewebsites.net",
+      "demo": "hhttps://drive.google.com/file/d/1IMOQMRuMZ4aivwJvin7Y0EGGYWD9HZ40/view",
       "source": "https://github.com/45Piyush/img-forgery-detector"
     },
     {
