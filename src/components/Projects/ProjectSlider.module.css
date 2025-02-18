@@ -48,41 +48,33 @@
 }
 
 /* Pagination Dots */
-.paginationContainer {
+:global(.paginationContainer) {
   position: absolute;
-  bottom: -20px; 
-  left: 45vw;
+  top: 100px;
+  left: 50%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
   gap: 7px;
   z-index: 1000;
-  border: 2px solid white;
-  background: whitesmoke;
+  /* background: whitesmoke; */
   border-radius : 15px ;
-  width: 50px;
+  /* width: 50px; */
   cursor: pointer;
 } 
 
-
-
-/* .swiper-pagination-bullets {
-  width: 15px;
-  height: 15px;
-  opacity: 1;
-  transition: background-color 0.3s ease;
-  color: green;
-} */
-
-.swiper-pagination-bullet-active {
+:global( .swiper-pagination-bullet){
+  background-color: whitesmoke;
+}
+:global(.swiper-pagination-bullet-active) {
   background-color: #007aff; /* Active dot color */
 }
 
 
-@media screen and (max-width : 800px)
+/* @media screen and (max-width : 800px)
 {
   .paginationContainer {
     width: 70px;
   } 
-}
+} */
 
