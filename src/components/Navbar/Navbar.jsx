@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -8,8 +7,8 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} style={{color:"cyan"}} href="/">
-        My<span style={{color : "white"}}>Port</span>fol<span style={{color : ""}}>io</span> 
+      <a className={styles.title} href="/">
+        My<span>Port</span>fol<span>io</span>
       </a>
       <div className={styles.menu}>
         <img

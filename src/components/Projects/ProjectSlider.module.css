@@ -1,0 +1,88 @@
+.projectSliderContainer {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* Navigation Buttons */
+.navigationContainer {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  pointer-events: none; /* Allow clicks to pass through to Swiper */
+}
+
+.prevButton,
+.nextButton {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  pointer-events: all; /* Enable clicks */
+  z-index: 11;
+}
+
+.prevButton::after,
+.nextButton::after {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.prevButton {
+  left: -20px; /* Adjust position */
+}
+
+.nextButton {
+  right: -20px; /* Adjust position */
+}
+
+/* Pagination Dots */
+.paginationContainer {
+  position: absolute;
+  bottom: -20px; 
+  left: 45vw;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  z-index: 1000;
+  border: 2px solid white;
+  background: whitesmoke;
+  border-radius : 15px ;
+  width: 50px;
+  cursor: pointer;
+} 
+
+
+
+/* .swiper-pagination-bullets {
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  transition: background-color 0.3s ease;
+  color: green;
+} */
+
+.swiper-pagination-bullet-active {
+  background-color: #007aff; /* Active dot color */
+}
+
+
+@media screen and (max-width : 800px)
+{
+  .paginationContainer {
+    width: 70px;
+  } 
+}
+

@@ -1,22 +1,21 @@
 @import "../../vars.css";
 
 .container {
-  /* border: 2px solid white; */
-  margin-top: 76px;
+  background-color: black;
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+  padding: 60px;
 }
 
 .title {
-  font-size: 35px;
+  text-align: center;
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: 1.75px;
-  /* text-transform: uppercase; */
   color: cyan;
+  margin-bottom: 40px;
 }
 
-.projects {
+/* .projects {
   margin-top: 37px;
   display: flex;
   flex-direction: row;
@@ -25,4 +24,5 @@
   justify-content: center;
   gap: 60px;
   width: 100%;   
-}
+} */
+

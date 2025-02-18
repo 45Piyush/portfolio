@@ -1,79 +1,246 @@
 @import "../../vars.css";
 
 .container {
-  background: rgba(0, 0, 0, 0.25);
-  margin-top: 120px;
+  background-color: #04152d;
+  color: lightseagreen;
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
-  color: lightseagreen;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 80px 20px;
+  gap: 30px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background Shapes */
+.container::before,
+.container::after {
+  content: '';
+  position: absolute;
+  background: rgba(32, 178, 170, 0.1); /* Lightseagreen with 10% opacity */
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.container::before {
+  width: 300px;
+  height: 300px;
+  top: -150px;
+  left: -150px;
+}
+
+.container::after {
+  width: 250px;
+  height: 250px;
+  bottom: -100px;
+  right: -100px;
+}
+
+/* Additional Background Shapes */
+.container .shape1,
+.container .shape2 {
+  position: absolute;
+  background: rgba(32, 178, 170, 0.1);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.container .shape1 {
+  width: 150px;
+  height: 150px;
+  top: 50%;
+  left: -75px;
+}
+
+.container .shape2 {
+  width: 100px;
+  height: 100px;
+  bottom: 50%;
+  right: -50px;
 }
 
 .text h2 {
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  animation: fadeIn 1.5s ease-in-out;
+  position: relative;
+  z-index: 2;
 }
 
 .text p {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 500;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  animation: fadeIn 2s ease-in-out;
+  position: relative;
+  z-index: 2;
 }
 
 .links {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  gap: 20px;
-}
-
-.link{
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
   flex-wrap: wrap;
-  gap: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .link a {
-  /* color: var(--color-text); */
-  color: lightblue;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   text-decoration: none;
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
+  color: lightblue;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 .link a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
   color: cyan;
-  font-weight: 900;
+  transform: translateY(-5px);
 }
 
 .link img {
   width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
 }
 
-@media screen and (max-width: 830px) {
-  .container {
-    flex-direction: column;
-    gap: 23px;
+.link a:hover img {
+  transform: scale(1.2);
+}
+
+/* Call-to-Action Button */
+.cta {
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.ctaButton {
+  background-color: lightseagreen;
+  color: #04152d;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: cyan;
+  transform: translateY(-3px);
+}
+
+/* Newsletter Subscription */
+.newsletter {
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.newsletter h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.newsletterForm {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletterForm input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 250px;
+}
+
+.newsletterForm button {
+  background-color: lightseagreen;
+  color: #04152d;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletterForm button:hover {
+  background-color: cyan;
+}
+
+/* Copyright Notice */
+.copyright {
+  margin-top: 40px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  z-index: 2;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .text h2 {
+    font-size: 36px;
   }
 
-  .text {
-    display: flex;
-    flex-direction: column;
+  .text p {
+    font-size: 20px;
   }
 
   .links {
-    justify-content: baseline;
-    align-items: center;
+    gap: 20px;
   }
+
   .link a {
-    font-size: 15px;
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  .ctaButton {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .newsletterForm input {
+    width: 200px;
   }
 }

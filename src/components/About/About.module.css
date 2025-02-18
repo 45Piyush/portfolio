@@ -1,117 +1,163 @@
 @import "../../vars.css";
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Container */
 .container {
+  padding: 80px 10%;
+  /* background: linear-gradient(135deg, #04152d, #0a2a4a); */
+  background-color: black;
+  color: white;
   position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
-  border-radius: 15px;
-  padding: 40px;
-  margin-top: 130px;
-  z-index: 1;
-  margin-left: 5%;
-  margin-right: 5%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
 }
 
-.container:hover {
-  background-color: rgba(12, 12, 12, 0.3);
-  transition: 10ms;
-}
-
+/* Title */
 .title {
-  /* color: var(--color-text); */
-  color: cyan;
-  font-size: 30px;
+  font-size: 2.5rem;
   font-weight: 700;
-  letter-spacing: 1.75px;
-  /* text-transform: uppercase; */
+  text-align: center;
+  margin-bottom: 40px;
+  color: cyan;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
+/* Content */
 .content {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  gap: 40px;
 }
 
+/* Profile Image */
 .aboutImage {
-  width: 35%;
-  animation: flip 10s infinite;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  animation: float 4s infinite ease-in-out;
 }
 
-@keyframes flip {
+@keyframes float {
   0% {
-    transform: rotateY(0deg);
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
   }
   100% {
-    transform: rotateY(360deg);
+    transform: translateY(0);
   }
-  
 }
 
-.aboutItems {
-  color: var(--color-text);
+/* About Content */
+.aboutContent {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
-.aboutItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 20px;
-  list-style: none;
+/* About Sections */
+.aboutSection {
+  background: rgba(255, 255, 255, 0.1);
   padding: 20px;
-  background-image: linear-gradient(
-    90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: 0.4s;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.aboutItem:hover {
-  background-size: 100% 100%;
+.aboutSection:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.aboutItem h3 {
-  /* font-family: "Fira Sans"; */
-  font-size: 25px;
+.aboutSection h3 {
+  font-size: 1.5rem;
   font-weight: 600;
+  margin-bottom: 10px;
   color: lightseagreen;
 }
 
-.aboutItem p {
-  margin-top: 8px;
-  /* font-family: "Fira Sans"; */
-  font-size: 18px;
-  font-weight: 400;
-  word-spacing: 3px;
+.aboutSection p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-@media screen and (max-width: 830px) {
-  .container {
-    background-color: transparent;
-    padding: 30px;
-  }
+/* Timeline */
+.timeline {
+  list-style: none;
+  padding: 0;
+}
 
+.timeline li {
+  margin-bottom: 15px;
+}
+
+.timeline span {
+  font-weight: 600;
+  color: cyan;
+}
+
+/* Skills Grid */
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+}
+
+.skillItem {
+  text-align: center;
+}
+
+.skillItem img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.skillItem p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Hobbies List */
+.hobbiesList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hobbiesList li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
   .content {
     flex-direction: column;
   }
 
   .aboutImage {
-    display: none;
+    width: 200px;
   }
 
-  .aboutItems {
-    margin-top: 29px;
-  }
-
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+  .aboutSection {
+    padding: 15px;
   }
 }
-

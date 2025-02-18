@@ -1,5 +1,4 @@
-import React from "react";
-
+// import React from "react";
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -8,85 +7,96 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
+        {/* Profile Image */}
         <img
           src={getImageUrl("about/aboutImage.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
-        <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Personal Info</h3>
-              <p>
-                Myself Piyush Singh, and I'm passionate Computer science student
-                currently pursuing Bachler of Technology in Computer Science &
-                Engineering from Government College of Engineering, Nagpur,
-                Maharastra, India.
-              </p>
+
+        {/* About Content */}
+        <div className={styles.aboutContent}>
+          {/* Personal Info */}
+          <div className={styles.aboutSection}>
+            <h3>Personal Info</h3>
+            <p>
+              Myself Piyush Singh, a passionate Computer Science student pursuing a Bachelor of Technology from Government College of Engineering, Nagpur.
+            </p>
+          </div>
+
+          {/* Education */}
+          <div className={styles.aboutSection}>
+            <h3>Education</h3>
+            <ul className={styles.timeline}>
+              <li>
+                <span>2020 - Present</span>
+                <p>B.Tech in Computer Science & Engineering, GCOE Nagpur (CGPA: 8.76)</p>
+              </li>
+              <li>
+                <span>2018 - 2020</span>
+                <p>12th CBSE, Montfort School, Nagpur (91.2%)</p>
+              </li>
+              <li>
+                <span>2016 - 2018</span>
+                <p>10th CBSE, Montfort School, Nagpur (92.6%)</p>
+              </li>
+            </ul>
+          </div>
+
+          {/* Skills */}
+          <div className={styles.aboutSection}>
+            <h3>Skills</h3>
+            <div className={styles.skillsGrid}>
+              <div className={styles.skillItem}>
+                <img src={getImageUrl("skills/python.png")} alt="Python" />
+                <p>Python</p>
+              </div>
+              <div className={styles.skillItem}>
+                <img src={getImageUrl("skills/django.png")} alt="Django" />
+                <p>Python</p>
+              </div>
+              <div className={styles.skillItem}>
+                <img src={getImageUrl("skills/react.png")} alt="React" />
+                <p>React</p>
+              </div>
+              <div className={styles.skillItem}>
+                <img src={getImageUrl("skills/java.png")} alt="Java" />
+                <p>Java</p>
+              </div>
+              <div className={styles.skillItem}>
+                <img src={getImageUrl("skills/mysql.png")} alt="MySQL" />
+                <p>MySQL</p>
+              </div>
             </div>
-          </li>
-          <li className={styles.aboutItem}>
-            {/* <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" /> */}
-            <img src={getImageUrl("about/serverIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Education</h3>
-              <p>
-                I have completed my schooling for both my 10th and 12th from
-                Montfort Seniour Secondary School, CBSE, Nagpur, Maharastra. I
-                secured 92.6% in 10th CBSE [ AISSE 2018 ] and 91.2% in my 12th
-                CBSE [ AISSCE 2020] Board Examination. Currently, I have CGPA of
-                8.76 in my college and will continue to strive to enhance my
-                knowledge and skills.
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Hobbies</h3>
-              <p>
-                Beyond academic pursuits, my hobbies that make me maintain a
-                well balanaced entertained lifestyle includes playing sports
-                especially Cricket, as well as watching it and staying updated
-                with latest cricket news. Apart from this, I love watching
-                animes, reading light novels, and play mobile games in my free
-                time. Additionally, Exercise is an integral part of my routine,
-                and lastly listening music for peace of mind and maintain
-                calmness.
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Skills</h3>
-              <p>
-                My Technical Skills include proficiency in Python & Java
-                programming language. Skilled with Frontend web development
-                using HTML, CSS, JavaScript and ReactJS. Satisfactory knowledge
-                of database management systems like MySQL, SqLite3 Db. Handy with
-                Python frameworks like Django, Django RestFramework for Backend
-                Web Development. Additionally, familiar with various Data
-                Science Python Libraries like numpy, pandas, matplotlib,
-                tensorflow and Streamlit.
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Area of Interests</h3>
-              <p>
-                My areas of interest is in the fields of Web Development and
-                Artificial Intelligence. Keen to explore on Machine Learning and
-                Deep Learning concepts. Committed to continuous learning and
-                professional growth. Seeking opportunities to apply my skills and
-                expand my knowledge.
-              </p>
-            </div>
-          </li>
-        </ul>
+          </div>
+
+          {/* Hobbies */}
+          <div className={styles.aboutSection}>
+            <h3>Hobbies</h3>
+            <ul className={styles.hobbiesList}>
+              <li>Cricket</li>
+              <li>Watching Anime</li>
+              <li>Reading Light Novels</li>
+              <li>Exercising</li>
+              <li>Listening to Music</li>
+            </ul>
+          </div>
+
+          {/* Interests */}
+          <div className={styles.aboutSection}>
+            <h3>Area of Interests</h3>
+            <ul className={styles.hobbiesList}>
+              <li>Python Developer</li>
+              <li>Web Development</li>
+              <li>Artificial Intelligence</li>
+              <li>Deep Learning</li>
+              <li>Cloud Computing</li>
+            </ul>
+            {/* <p>
+              Python Development, Web Development, Artificial Intelligence, Machine Learning, and Deep Learning.
+            </p> */}
+          </div>
+        </div>
       </div>
     </section>
   );
