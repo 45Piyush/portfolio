@@ -1,7 +1,15 @@
 [
     {
+      "title": "ShoppIt",
+      "imageSrc": "projects/shoppit.png",
+      "description": "A small scale and a simple e-commerce applications built including features like JWT Authentication & Verification, CRUD Operations, Cart Management and  Payment Integration.",
+      "skills": ["Python","ReactJS", "Django", "SQLite3", "Restframework"],
+      "demo": "https://shoppit-app.onrender.com/",
+      "source": "https://github.com/45Piyush/img-forgery-detector"
+    },
+    {
       "title": "Image Forgery Detector",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/streamlit.png",
       "description": "A Deep Learning Web Applications for detecting whether an Image is Real or Tampered, it also gives us the Accuracy with which the Model prediction might be True/False.",
       "skills": ["Python","Py Libraries", "Streamlit", "Kaggle", "Azure Cloud"],
       "demo": "https://drive.google.com/file/d/1IMOQMRuMZ4aivwJvin7Y0EGGYWD9HZ40/view",
@@ -9,7 +17,7 @@
     },
     {
       "title": "Youtube Blogger AI",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/youtubeblogai.png",
       "description": "This is a Youtube Video Summarization Full Stack Web Application platform which summarizes the content in the form of BLOGS and records it for each individual Users.",
       "skills": ["HTML5", "CSS3", "JS", "Django","TailwindCSS", "GenAI", "Assembly AI"],
       "demo": "https://youtubeblogai.onrender.com/",
@@ -17,7 +25,7 @@
     },
     {
       "title": "EfficienSee",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/efficiensee.png",
       "description": "An Employee-HR Dashboard platform which streamlines work processes and empowers Employees & HR to efficiently manages different Tasks, Leaves and Personal Data of Employees.",
       "skills": ["HTML5", "CSS3", "JS","MySqL" ,"Bootstrap","PHP", "Xaamps"],
       "demo": "http://efficiensee.infinityfreeapp.com/efficiensee/",

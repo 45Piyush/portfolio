@@ -29,16 +29,16 @@ export const About = () => {
             <h3>Education</h3>
             <ul className={styles.timeline}>
               <li>
-                <span>2020 - Present</span>
-                <p>B.Tech in Computer Science & Engineering, GCOE Nagpur (CGPA: 8.76)</p>
+                <span>2020 - 2024</span>
+                <p>B.TECH in Computer Science & Engineering, Government College of Engineering, Nagpur (CGPA: 8.76)</p>
               </li>
               <li>
                 <span>2018 - 2020</span>
-                <p>12th CBSE, Montfort School, Nagpur (91.2%)</p>
+                <p>12th CBSE, Montfort Sr. Sec. School, Nagpur (Percentage: 91.2%)</p>
               </li>
               <li>
-                <span>2016 - 2018</span>
-                <p>10th CBSE, Montfort School, Nagpur (92.6%)</p>
+                <span>2017 - 2018</span>
+                <p>10th CBSE, Montfort Sr. Sec. School, Nagpur (Pecentage: 92.6%)</p>
               </li>
             </ul>
           </div>
