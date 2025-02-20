@@ -116,7 +116,7 @@
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     text-align: center;
     padding: 20px;
@@ -125,6 +125,7 @@
   .heroImg {
     width: 250px;
     margin-top: 50px;
+    margin-bottom: 20px;
   }
 
   .title {

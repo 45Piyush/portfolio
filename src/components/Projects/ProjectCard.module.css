@@ -4,9 +4,10 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  /* background: linear-gradient(180deg, #576cbc 0%, #132a53 100%); */
+  /* background:linear-gradient(90deg, rgb(25, 55, 109), rgba(25, 55, 109, 0.2)); */
+  background: linear-gradient(90deg, #19376d 0%, #132a53 100%);
   box-shadow: 12px 16px 14px 0 #04152d;
-  /* box-shadow: 3px 3px 4px; */
   padding: 24px 16px;
   max-width: 360px;
   min-height: 500px; /* Ensure all cards have the same height */
