@@ -10,6 +10,7 @@ export const About = () => {
         {/* Profile Image */}
         <img
           src={getImageUrl("about/aboutImage.png")}
+          // src={getImageUrl("about/aboutPiyush.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />

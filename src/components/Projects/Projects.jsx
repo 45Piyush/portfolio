@@ -14,9 +14,7 @@ export const Projects = () => {
           return <ProjectCard key={id} project={project} />;
         })}
       </div> */}
-      {/* <div className={styles.projectSlider}> */}
         <ProjectSlider projects={projects} />
-      {/* </div> */}
     </section>
   );
 };

@@ -5,23 +5,23 @@
     "startDate": "October 2023",
     "endDate": "March 2024",
     "experiences": [
-      "Trained on Python programming, along with Data Structures and OOPS.",
-      "Gained insights to Python Data Science Libraries.",
-      "Deep dive into AI, ML & DL concepts with different Algorithms.",
-      "Worked on the Deep Learning project IMAGE FORGERY DETECTOR.",
-      "Deep Learning Model which detects whether an Image is real or tampered."
+      "Trained in Python programming, mastering Data Structures and OOPS concepts.",
+      "Explored Python Data Science Libraries for advanced data analysis.",
+      "Dived into AI, ML, and DL concepts, studying various algorithms in depth.",
+      "Developed a Deep Learning project: IMAGE FORGERY DETECTOR."
     ],
     "imageSrc": "history/edunet.png"
   },
   {
     "role": "Software Trainee",
-    "organisation": "Persistent (Pvt) Ltd. ",
+    "organisation": "Persistent (Pvt) Ltd.",
     "startDate": "June 2023",
-    "endDate": "Aug2023",
+    "endDate": "Aug 2023",
     "experiences": [
-      "Hands on experience of FrontEnd with HTML5, CSS3, JS & ReactJS.",
-      "Knowledge of Java & Python Programming, Data Structures & OOPS in detail.",
-      "Insights on DBMS with MySQL, Basics of Linux OS and GitHub Platform. "
+      "Gained hands-on experience in FrontEnd with HTML5, CSS3, JS, and ReactJS.",
+      "Acquired in-depth knowledge of Java, Python, Data Structures, and OOPS.",
+      "Learned DBMS with MySQL, Linux OS basics, and GitHub platform usage.",
+      "Collaborated on team projects to build responsive web applications."
     ],
     "imageSrc": "history/persistent.png"
   },
@@ -31,21 +31,23 @@
     "startDate": "Sep 2023",
     "endDate": "Oct 2023",
     "experiences": [
-      "Worked on Django Project on Real Time Chat Application",
-      "Insights to API's and Python Django RestFrameWork.",
-      "Responsible for keeping track for Models and Views."
+      "Developed a Real-Time Chat Application using Django framework.",
+      "Gained insights into APIs and Python Django RestFramework.",
+      "Managed Models and Views for seamless application functionality.",
+      "Ensured code quality and performance optimization in the project."
     ],
     "imageSrc": "history/happie.png"
   },
   {
-    "role": "Oasis Infobyte",
-    "organisation": "Frontend Developer",
+    "role": "Frontend Developer",
+    "organisation": "Oasis Infobyte",
     "startDate": "June 2023",
     "endDate": "Aug 2023",
     "experiences": [
-      "Given the task of building few Landing Webpages & Templates.",
-      "Developed Responsive Personal Portfolio with ReactJS as result.",
-      "Helped create UI components including Dashboards"
+      "Designed and built multiple Landing Webpages and Templates.",
+      "Designed and created a Responsive Personal Portfolio using ReactJS.",
+      "Developed UI components, including interactive Dashboards.",
+      "Ensured cross-browser compatibility and responsive design."
     ],
     "imageSrc": "history/oasis.png"
   }

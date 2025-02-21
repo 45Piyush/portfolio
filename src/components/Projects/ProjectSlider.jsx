@@ -1,10 +1,10 @@
-import React from "react";
+// import React from "react";
 import { ProjectCard } from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import styles from "./ProjectSlider.module.css"; // Import custom CSS
 
 export const ProjectSlider = ({ projects }) => {
@@ -21,12 +21,18 @@ export const ProjectSlider = ({ projects }) => {
           nextEl: `.${styles.nextButton}`,
           prevEl: `.${styles.prevButton}`,
         }}
-        modules={[Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation]}
         breakpoints={{
           0: { slidesPerView: 1 },
           800: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
         }}
+        loop={true} // Infinite loop
+          autoplay={{
+            delay: 5000, // Autoplay every 3 seconds
+            disableOnInteraction: false, // Continue autoplay after user interaction
+            pauseOnMouseEnter: true, // Pause autoplay on hover
+          }}
       >
         {projects.map((project, id) => (
           <SwiperSlide key={id}>

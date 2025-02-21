@@ -4,13 +4,13 @@
 .container {
   color: var(--color-text);
   padding: 80px 10%;
-  /* background-color: #04152d; */
-  background-color:rgba(2,0,36,1);
+  background-color: rgba(2, 0, 36, 1);
   position: relative;
   overflow: hidden;
 }
 
-.container::before, .container::after {
+.container::before,
+.container::after {
   content: '';
   position: absolute;
   background: rgba(32, 178, 170, 0.1);
@@ -45,19 +45,16 @@
 /* Content */
 .content {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 20px;
+  flex-direction: column;
   gap: 40px;
 }
 
 /* Skills Section */
 .skills {
-  width: 45%;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
   justify-content: center;
+  gap: 30px;
 }
 
 .skill {
@@ -108,43 +105,57 @@
   font-size: 1.1rem;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.9);
-  /* color: rgb(220, 209, 209); */
 }
 
-/* History Section */
-.history {
-  width: 50%;
+/* Swiper Container */
+.swiperContainer {
+  width: 100%;
+  padding: 20px;
+  /* border: 2px solid white; */
+}
+
+/* Swiper Slide */
+.swiperSlide {
+  /* border: 2px solid green; */
   display: flex;
-  flex-direction: column;
-  gap: 30px;
-  
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 400px; /* Fixed height for all slides */
 }
 
+/* History Item */
 .historyItem {
-  
   background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0.2) 100%);
   border-radius: 10px;
   padding: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 100%; /* Fixed width for all slides */
+  height: 100%; /* Fixed height for all slides */
+  margin-bottom: 30px;
 }
 
 .historyItem:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.historyItem img {
-  width: 80px;
+/* History Image */
+.historyImage {
+  width: 90px;
+  height: 80px;
   border-radius: 50%;
   padding: 10px;
   background: rgba(255, 255, 255, 0.1);
   transition: transform 0.3s ease;
 }
 
-.historyItem img:hover {
+.historyImage:hover {
   animation: flip 2s infinite ease-in-out;
 }
 
@@ -157,10 +168,23 @@
   }
 }
 
+/* History Details */
+.historyItemDetails {
+  /* text-align: center; */
+}
+
 .historyItemDetails h3 {
   font-size: 1.5rem;
   font-weight: 700;
   color: cyan;
+  text-align: center;
+}
+
+.historyItemDetails h4 {
+  /* font-size: 1.5rem; */
+  /* font-weight: 700; */
+  color: white;
+  text-align: center;
 }
 
 .historyItemDetails p {
@@ -168,6 +192,7 @@
   font-weight: 600;
   color: lightskyblue;
   margin-top: 5px;
+  text-align: center;
 }
 
 .historyItemDetails ul {
@@ -194,20 +219,12 @@
   }
 }
 
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-  .content {
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .skills {
-    width: 100%;
-  }
-
-  .history {
-    width: 100%;
+  .swiperSlide {
+    padding: 10px;
+    height: 350px; /* Adjusted height for mobile */
   }
 
   .historyItem {
@@ -215,7 +232,10 @@
     text-align: center;
   }
 
-  .historyItem img {
-    width: 100px;
+  .historyImage {
+    width: 60px;
   }
 }
+
+
+
