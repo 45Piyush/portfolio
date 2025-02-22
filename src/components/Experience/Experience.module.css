@@ -51,10 +51,16 @@
 
 /* Skills Section */
 .skills {
+  background: black;
+  background: rgba(255, 255, 255, 0.1);
   display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  /* width: 100%; */
+  margin: auto;
 }
 
 .skill {
@@ -72,8 +78,8 @@
 .skillImageContainer {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,6 +93,7 @@
 .skillImageContainer img {
   width: 60px;
   animation: grow 2s infinite ease-in-out;
+  border-radius: 5px;
 }
 
 @keyframes grow {
@@ -111,12 +118,10 @@
 .swiperContainer {
   width: 100%;
   padding: 20px;
-  /* border: 2px solid white; */
 }
 
 /* Swiper Slide */
 .swiperSlide {
-  /* border: 2px solid green; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,6 +145,8 @@
   margin-bottom: 30px;
 }
 
+
+
 .historyItem:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
@@ -147,8 +154,8 @@
 
 /* History Image */
 .historyImage {
-  width: 90px;
-  height: 80px;
+  width: 100px;
+  height: 90px;
   border-radius: 50%;
   padding: 10px;
   background: rgba(255, 255, 255, 0.1);
