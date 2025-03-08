@@ -21,7 +21,7 @@ export const About = () => {
           <div className={styles.aboutSection}>
             <h3>Personal Info</h3>
             <p>
-              Myself Piyush Singh, a passionate Computer Science student pursuing a Bachelor of Technology from Government College of Engineering, Nagpur.
+            Myself Piyush Singh, a passionate and driven Computer Science enthusiast, graduated in 2024 with a Bachelor of Technology in Computer Science and Engineering from Government College of Engineering, Nagpur. Eager to leverage my technical skills and knowledge to contribute to innovative solutions and make a meaningful impact in the tech industry.
             </p>
           </div>
 

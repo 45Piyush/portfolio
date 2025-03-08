@@ -14,9 +14,9 @@ export const Hero = () => {
           I'm a <span className={styles.highlight}>Software Developer</span> from India.
         </p>
         <p className={styles.description}>
-          Welcome to my portfolio! I specialize in creating stunning visual experiences that captivate and inspire.
+          Welcome to my portfolio! I am exploring the realms of technology and seeking for an opportunity by building innovative solutions with Code.
         </p>
-        <a href="https://drive.google.com/file/d/1FuTYLpB_PtUAbBcofjvf5BPwpdA8SGK0/view?usp=drivesdk" className={styles.ctaButton} target="blank">
+        <a href="https://drive.google.com/file/d/14APo1N7B-zC9YaM77ovDegZja5rUrYfl/view?usp=sharing" className={styles.ctaButton} target="blank">
           View My Resume
         </a>
       </div>
