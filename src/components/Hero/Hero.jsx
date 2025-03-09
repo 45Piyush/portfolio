@@ -16,7 +16,7 @@ export const Hero = () => {
         <p className={styles.description}>
           Welcome to my portfolio! I am exploring the realms of technology and seeking for an opportunity by building innovative solutions with Code.
         </p>
-        <a href="https://drive.google.com/file/d/14APo1N7B-zC9YaM77ovDegZja5rUrYfl/view?usp=sharing" className={styles.ctaButton} target="blank">
+        <a href="https://drive.google.com/file/d/1sHJPJXqVi7FPVFewEenqcFMaliKCjP44/view" className={styles.ctaButton} target="blank">
           View My Resume
         </a>
       </div>
