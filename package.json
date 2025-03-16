@@ -14,7 +14,6 @@
     "@eslint/object-schema": "^2.1.6",
     "@fontsource/outfit": "^5.0.8",
     "@fontsource/roboto": "^5.0.8",
-    "@rollup/rollup-win32-x64-msvc": "^4.35.0",
     "glob": "^11.0.1",
     "lru-cache": "^11.0.2",
     "react": "^19.0.0",
