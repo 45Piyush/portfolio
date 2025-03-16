@@ -12,8 +12,10 @@
   "dependencies": {
     "@fontsource/outfit": "^5.0.8",
     "@fontsource/roboto": "^5.0.8",
+    "@rollup/rollup-win32-x64-msvc": "^4.35.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rollup": "^4.35.0",
     "swiper": "^11.2.4"
   },
   "devDependencies": {
@@ -24,6 +26,6 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.0.8"
+    "vite": "^6.2.2"
   }
 }

@@ -76,10 +76,12 @@ export const About = () => {
             <h3>Hobbies</h3>
             <ul className={styles.hobbiesList}>
               <li>Cricket</li>
-              <li>Watching Anime</li>
-              <li>Reading Light Novels</li>
+              <li>Coding</li>
+              <li>Chess</li>
               <li>Exercising</li>
               <li>Listening to Music</li>
+              <li>Reading Light Novels</li>
+
             </ul>
           </div>
 
