@@ -1,8 +1,32 @@
-# React + Vite
+# Personal Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-Currently, two official plugins are available:
+A responsive and interactive personal portfolio website built using **ReactJS** and **Vite**. Designed to showcase my projects, skills, and experiences with smooth animations and modern development tools.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🌟 Features
+- **Responsive Design**: Works seamlessly on all devices.
+- **Smooth Animations**: Interactive components for a dynamic user experience.
+- **Modern Tools**: Built with **Vite**, **Git**, and **GitHub** for efficient development.
+- **Deployed on Netlify**: Easy access and fast performance.
+
+---
+
+## 🛠️ Tools Used
+- **Frontend**: React.js
+- **Build Tool**: Vite
+- **Version Control**: Git & GitHub
+- **Deployment**: Netlify
+
+---
+
+## 🚀 How to Run This Project Locally
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
