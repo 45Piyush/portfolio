@@ -31,19 +31,19 @@ A responsive and interactive personal portfolio website built using **ReactJS** 
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
 
-2. **Navigate to the Project Directory:
+2. **Navigate to the Project Directory**:
    ```bash
    cd your-repo-name
 
-3. **Install Dependencies:
+3. **Install Dependencies**:
    ```bash
    npm install
 
-4. **Run the Development Server:
+4. **Run the Development Server**:
    ```bash
    npm run dev
 
-5. **Open in Browser:
+5. **Open in Browser**:
    Visit http://localhost:5173 to view the portfolio.
 
 ## 🔗 Live Demo
