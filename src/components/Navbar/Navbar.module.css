@@ -10,13 +10,9 @@
   z-index: 1000;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   transition: background 0.3s ease;
-  background-color: rgba(2, 0, 36, 0.8);
-  /* background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(9, 9, 121, 1) 100%,
-  ); */
+  background-color: rgba(2, 0, 36, 0.7); /* Reduced opacity for more transparency */
+  backdrop-filter: blur(10px); /* This creates the blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
   border-radius: 5px;
 }
 
@@ -43,7 +39,7 @@
 }
 
 .title:hover {
-  color: yellowgreen;
+  color: #ff6f61;
   transform: scale(1.05);
 }
 
@@ -52,10 +48,6 @@
 }
 
 .menuItems {
-  /* display: flex;
-  gap: 47px;
-  list-style: none; */
-
   display: flex;
   align-items: center;
   gap: 15px;
@@ -63,14 +55,9 @@
 }
 
 .menuItems a {
-  /* font-size: 25px;
-  font-weight: 700;
-  text-decoration: none;
-  color: cyan;
-  padding: 10px 15px;
-  border-radius: 5px;
-  transition: color 0.3s ease, background 0.3s ease, transform 0.3s ease;
-  background-color: rgba(255, 255, 255, 0.1); */
+  border-bottom: 2px solid white;
+  /* border-right: 1px solid white; */
+
 
   
   text-decoration: none;
@@ -132,16 +119,24 @@
     display: none;
     flex-direction: column;
     align-items: center;
-    gap: 13px;
-    border-radius: 10px;
+    gap: 25px;
+    border-radius: 20px 0px;
     background: rgba(25, 55, 109, 0.9);
     padding: 24px 33px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: opacity 0.3s ease, transform 0.3s ease;
+    /* border: 2px solid blue; */
+  }
+
+  .menuItems li {
+    width: 100%;
+    /* border: 2px solid blue; */
+    /* background-color: rgba(255, 255, 255, 0.2); */
   }
 
   .menuItems a {
     background: none;
+    border: none;
   }
 
   .menuOpen {
