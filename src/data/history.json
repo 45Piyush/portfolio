@@ -1,5 +1,18 @@
 [
   {
+    "role": "Enterprise Integration",
+    "organisation": "Tata Consultancy Services",
+    "startDate": "May 2025",
+    "endDate": "Working",
+    "experiences": [
+      "Trained in Python programming, mastering Data Structures and OOPS concepts.",
+      "Explored Python Data Science Libraries for advanced data analysis.",
+      "Dived into AI, ML, and DL concepts, studying various algorithms in depth.",
+      "Developed a Deep Learning project: IMAGE FORGERY DETECTOR."
+    ],
+    "imageSrc": "history/edunet2.png"
+  },
+  {
     "role": "Data Analyst",
     "organisation": "Edunet Foundation",
     "startDate": "October 2023",
