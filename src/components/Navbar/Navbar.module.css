@@ -6,7 +6,7 @@
   position: fixed;
   left: 90px;
   top:10px;
-  margin: auto;
+  /* margin: auto; */
   display: flex;
   align-items: center;
   justify-content: space-between;
