@@ -1,10 +1,11 @@
 @import "../../vars.css";
 
 .navbar {
-  width: 80%;
-  position: absolute;
-  left: 160px;
-  top:20px;
+  width: 90%;
+  /* position: absolute; */
+  position: fixed;
+  left: 90px;
+  top:10px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -102,10 +103,13 @@
 @media screen and (max-width: 1024px) {
   .navbar {
     width: 100%;
-    position: static;
-    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    /* flex-direction: column;
     align-items: flex-start;
-    padding: 15px 30px;
+    padding: 15px 30px; */
   }
 
   .menu {
