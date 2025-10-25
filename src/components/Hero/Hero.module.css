@@ -6,12 +6,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* height: 100vh; */
+  height: 100vh;
   padding: 0 10%;
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   overflow: hidden;
   color: white;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 /* Background Overlay */
@@ -121,11 +121,12 @@
     text-align: center;
     padding: 20px;
     padding-bottom: 150px;
+    height: fit-content;
   }
 
   .heroImg {
     width: 200px;
-    margin-top: 250px;
+    margin-top: 200px;
     margin-bottom: 40px;
     border-radius: 25px;
   }
