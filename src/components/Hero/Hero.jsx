@@ -11,19 +11,26 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hello, my name's Piyush.</h1>
         <p className={styles.subtitle}>
-          I'm a <span className={styles.highlight}>Software Developer Trainee</span> from India.
+          I'm a{" "}
+          <span className={styles.highlight}>Software Developer Trainee</span>{" "}
+          from India.
         </p>
         <p className={styles.description}>
-          Welcome to my portfolio! I am exploring the realms of technology and seeking for an opportunity by building innovative solutions with Code.
+          Welcome to my portfolio! I am exploring the realms of technology and
+          seeking for an opportunity by building innovative solutions with Code.
         </p>
-        <a href="https://drive.google.com/file/d/1sHJPJXqVi7FPVFewEenqcFMaliKCjP44/view" className={styles.ctaButton} target="blank">
+        <a
+          href="https://drive.google.com/file/d/1sHJPJXqVi7FPVFewEenqcFMaliKCjP44/view"
+          className={styles.ctaButton}
+          target="blank"
+        >
           View My Resume
         </a>
       </div>
 
       {/* Hero Image */}
       <img
-        src={getImageUrl("hero/myimage25.jpg")}// Replace with your image path
+        src={getImageUrl("hero/piyush2026.png")} // Replace with your image path
         alt="Hero image of Me"
         className={styles.heroImg}
       />

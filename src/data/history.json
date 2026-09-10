@@ -1,29 +1,16 @@
 [
   {
-    "role": "Enterprise Integration",
+    "role": "Backend Developer with Java",
     "organisation": "Tata Consultancy Services",
     "startDate": "May 2025",
     "endDate": "Working",
     "experiences": [
-      "Working with SAP & Salesforce Technologies.",
-      "Handling middlewares and API",
-      "Enterprise Intgeration",
-      "Enterprise Solution Units"
+      "Working in Identity and Access Management (IAM) domain, focusing on backend development with Java.",
+      "Handling middlewares, API and JDBC connections, and working with databases.",
+      "PL/SQL, Linux, Control M, Java 17, Windows and handling large-codebases.",
+      "Automation, CI/CD pipelines and DevOps practices for efficient software delivery."
     ],
     "imageSrc": "history/tcs.png"
-  },
-  {
-    "role": "Data Analyst",
-    "organisation": "Edunet Foundation",
-    "startDate": "October 2023",
-    "endDate": "March 2024",
-    "experiences": [
-      "Trained in Python programming, mastering Data Structures and OOPS concepts.",
-      "Explored Python Data Science Libraries for advanced data analysis.",
-      "Dived into AI, ML, and DL concepts, studying various algorithms in depth.",
-      "Developed a Deep Learning project: IMAGE FORGERY DETECTOR."
-    ],
-    "imageSrc": "history/edunet2.png"
   },
   {
     "role": "Software Trainee",
@@ -37,6 +24,19 @@
       "Collaborated on team projects to build responsive web applications."
     ],
     "imageSrc": "history/persistent2.png"
+  },
+  {
+    "role": "Data Analyst",
+    "organisation": "Edunet Foundation",
+    "startDate": "October 2023",
+    "endDate": "March 2024",
+    "experiences": [
+      "Trained in Python programming, mastering Data Structures and OOPS concepts.",
+      "Explored Python Data Science Libraries for advanced data analysis.",
+      "Dived into AI, ML, and DL concepts, studying various algorithms in depth.",
+      "Developed a Deep Learning project: IMAGE FORGERY DETECTOR."
+    ],
+    "imageSrc": "history/edunet2.png"
   },
   {
     "role": "Python Developer",
